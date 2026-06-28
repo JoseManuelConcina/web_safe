@@ -1,0 +1,92 @@
+/*index */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden; 
+}
+
+/* la barra de navegacion */
+.navbar-santafe {
+  background-color: #0F3C6D;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-santafe .navbar-brand img.logo {
+  height: 4rem; 
+  width: auto;
+}
+
+/* Portada hero principal fluida */
+.portada-hero {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../imagenes/portada.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 40vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Enlaces decorativos de las colunas */
+.btn-flecha {
+  text-decoration: none;
+  color: #0F3C6D;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+.btn-flecha:hover {
+  color: #1a5ca6;
+  text-decoration: underline;
+}
+
+/* tabla */
+.transition-hover {
+  transition: 0.2s;
+}
+
+.transition-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-color: #0d6efd;
+}
+
+/* el iframe */
+.mapa-sitio {
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estelaridades */
+/* espacio entre el section y las tarjetas generales */
+.seccion-tarjetas {
+  margin-top: 1rem; 
+}
+
+/* espacio entre el section y el div separador */
+.separador-estelar {
+  margin-top: 1rem;    
+  border-bottom: 2px solid #0F3C6D;
+  width: 70%;          
+  margin-left: auto;   
+  margin-right: auto;
+}
+
+/*Cultura */
+/* Contenedor del carrusel */
+#culturaCarousel {
+  background-color: #0F3C6D; 
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Imagenes del carrusel */
+#culturaCarousel img {
+  max-width: 30rem;  
+  height: auto;      
+  margin: 0 auto;    
+  display: block;
+  object-fit: cover; 
+}
